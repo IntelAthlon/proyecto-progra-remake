@@ -1,0 +1,42 @@
+AtomicGram/
+│
+├── src/
+│   ├── main.py
+│   ├── game.py
+│   ├── nonogram.py
+│   ├── ui/
+│   │   ├── __init__.py
+│   │   ├── menu.py #falta mejorar esta categoría
+│   │   ├── game_screen.py
+│   │   ├── editor_screen.py
+│   │   └── components.py
+│   ├── logic/
+│   │   ├── __init__.py
+│   │   ├── generator.py
+│   │   ├── solver.py
+│   │   └── hint_system.py #falta mejorar esta categoría
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── file_handler.py #falta implementar esta categoría
+│   │   ├── image_converter.py #falta implementar esta categoría
+│   │   └── timer.py
+│   └── config.py
+│
+├── assets/ #falta implementar esta categoría
+│   ├── images/
+│   ├── sounds/
+│   └── fonts/
+│
+├── data/ #falta implementar esta categoría
+│   ├── levels/
+│   ├── saved_games/
+│   └── user_created/
+│
+├── tests/ #falta implementar esta categoría
+│   ├── test_nonogram.py
+│   ├── test_generator.py
+│   └── test_solver.py
+│
+├── README.md
+├── requirements.txt #falta actualizar
+└── setup.py
